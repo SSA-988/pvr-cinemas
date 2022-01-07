@@ -1,0 +1,11 @@
+.nowShowing{
+    color:white;
+    padding: 20px;
+    margin:20px;
+
+}
+.nowShowing_movies{
+    display:flex;
+    align-items:center;
+    flex-wrap: wrap;
+}

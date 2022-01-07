@@ -1,0 +1,47 @@
+.safety_top > h3 {
+  /* align-items: center; */
+  color: white;
+  /* text-align: center; */
+}
+.safety_top {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.safety {
+  padding: 10px;
+  background-color: rgb(34, 31, 31);
+  width: 80%;
+  margin-left: 30px;
+  margin-bottom: 30px;
+}
+.safety_icon {
+  color: yellow;
+  margin-right: 10px;
+}
+.safety_mask {
+  color: yellow;
+}
+.safety_box > h3 {
+  color: white;
+  padding-bottom: 20px;
+}
+.safety_box {
+  padding: 10px;
+  padding-bottom: 10;
+  /* padding-right: 20px; */
+ 
+}
+.safety_boxes {
+  display: flex;
+  /* padding:13px; */
+  justify-content: space-around;
+  margin-top: 12px;
+} 
+.safety_box > .MuiSvgIcon-root {
+  font-size: 60px;
+  margin-left: 40px;
+}
+.safety_box1{
+  margin-left:20px;
+}

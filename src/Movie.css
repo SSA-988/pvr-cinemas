@@ -1,0 +1,44 @@
+.banner {
+  width: 320px;
+  position: relative;
+  height: 228px;
+  color: white;
+  margin: 13px;
+  object-fit: contain;
+  align-items: center;
+  cursor: pointer;
+  outline: none;
+  border-bottom-right-radius: 7px;
+  border-bottom-left-radius: 7px;
+  border: none;
+  border-width: 0;
+}
+.banner > h3 {
+  font-weight: bold;
+  font-size: 17px;
+  position: absolute;
+  bottom: 40px;
+  left: 10px;
+}
+.banner_date {
+  color: black;
+  background-color: rgb(221, 221, 20);
+  color: rgb(50, 84, 100);
+  border-bottom-right-radius: 4px;
+  border-bottom-left-radius: 4px;
+  padding: 10px;
+  /* border-radius:7px; */
+}
+.banner > button {
+  position: absolute;
+  bottom: 10px;
+  left: 10px;
+  background-color:#f18f8f;
+  color:white;
+  font-size: 16px;
+  outline: none;
+  border: none;
+  cursor: pointer;
+  padding:3px 10px;
+  border-radius:3px;
+}

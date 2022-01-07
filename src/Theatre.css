@@ -1,0 +1,80 @@
+.theatre_bottom {
+  height: 80px;
+  width: 80%;
+  margin-left: 130px;
+  position: fixed;
+  border-radius: 5px;
+  bottom: 0;
+  display: flex;
+  align-items: center;
+  background-image: linear-gradient(white, rgb(87, 114, 233));
+  justify-content: space-around;
+}
+.theatre_image {
+  height: 120px;
+  position: relative;
+  width: 86%;
+  color: white;
+  margin-left: 100px !important;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  outline: none;
+}
+.theatre_mall {
+  margin-left: auto !important;
+}
+.theatre {
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(21, 18, 36);
+  height: 100vh;
+}
+.theatre_title {
+  align-items: center;
+  justify-content: center;
+  margin-left: auto;
+  margin-right: auto;
+  position: absolute;
+  bottom: 130px;
+  left: 300px;
+  width: 60%;
+}
+.theatre_title > h2 {
+  text-align: center;
+  color: rgb(245, 222, 17);
+
+  margin-left: auto;
+}
+.theatre_price {
+  display: flex;
+  align-items: center;
+}
+.theatre_price > h3 {
+  padding: 0px 20px;
+}
+.theatre_body {
+  position: absolute;
+  bottom: 5px;
+  left: 2px;
+}
+.theatre_footer {
+  position: fixed;
+  border-radius: 5px;
+  bottom: 20px;
+  right: 90px;
+  display: flex;
+  align-items: center;
+}
+.theatre_footer > h2 {
+  color: #fff;
+}
+.theatre_icon {
+  color: rgb(213, 228, 11);
+  font-size: 50px !important;
+  cursor: pointer;
+}
+.theatre_body > spam{
+
+color: red;
+}

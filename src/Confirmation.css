@@ -1,0 +1,97 @@
+.confirmation_part > h2 {
+  color: #fff;
+}
+.confirmation_part {
+  padding: 15px;
+ 
+}
+.confirmation {
+  display: grid;
+  /* place-items: center; */
+   border-radius:2px;
+  width: 27%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 80px;
+  background-color: rgb(41, 39, 39);
+}
+.confirmation_title {
+  font-style: capitalize;
+  font-size: 29px;
+}
+.confirmation_title > spam {
+  color: red;
+}
+.confirmation_name {
+  font-size: 15px;
+  padding: 10px 0;
+}
+.confirmation_value > h2{
+    color: rgb(94, 97, 94);
+    font-weight: bold
+}
+.confirmation_time {
+  color: rgb(165, 165, 75);
+  padding: 10px 0;
+}
+hr {
+  border: 1px solid #d8d5d8;
+  height: 0.1px;
+  margin-bottom: 10px;
+}
+.conirmation_seats > h3 {
+  display: flex;
+  align-items: center;
+  color: rgb(212, 120, 120);
+  margin: 12px;
+}
+.conirmation_seats {
+  margin-bottom: 30px;
+}
+.confirmation_seat {
+  color: rgb(155, 155, 155);
+}
+.conirmation_prices {
+  display: flex;
+  align-items: center;
+  margin: 10px 0;
+  justify-content: space-between;
+}
+.confirmation_tickets {
+  display: flex;
+  align-items: center;
+}
+.conirmation_price {
+  color: rgb(153, 146, 146);
+}
+.confirmation_count {
+  background-color: yellow;
+  padding:1px;
+  width: 20px;
+  height: 20px;
+  margin-left:7px;
+  border-radius: 18px;
+  align-items: center;
+  text-align: center;
+}
+.conirmation_total > h1{
+    color:rgb(193, 221, 37)
+}
+.conirmation_total{
+    margin-top: 16px;
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+}
+.confirmation_payment{
+    display:grid;
+    place-items: center;
+    cursor: pointer;
+    margin-top:30px
+}
+.confirmation_payment > h3{
+    color: #fff;
+    background-color:rgb(185, 85, 49);
+    padding:7px;
+    border-radius: 3px;
+}

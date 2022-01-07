@@ -1,0 +1,68 @@
+
+.showtime > h3{
+    color:rgb(255, 145, 0);
+    text-align:center
+}
+.showtime_malls{
+    padding:20px;
+
+}
+.showtime_malls > h4{
+    color: rgb(150, 143, 143);
+     padding:10px 30px;
+}
+.showtime_malls > h3{
+    color: white;
+    cursor: pointer;
+     /* margin: 20px 0px;  */
+     padding:20px 0px;
+    /* border-bottom:1px solid #404040;
+    width:83%; */
+}
+.showtime_timings > h4{
+    color: rgb(18, 190, 18);
+    padding:7px 10px;
+    cursor: pointer;
+}
+.showtime_timings{
+    display:flex;
+    align-items:center;
+    padding: 2px 50px;
+}
+.showtime_malls > h3{
+    margin-left:10px
+}
+.showtime_dropdown {
+  position: relative;
+  display: inline-block;
+}
+.dropdown-content {
+   display: none;
+  position: absolute;
+  background-color: #ffffff;
+  min-width: 130px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+.dropdown-content a {
+  color: rgb(44, 212, 81);
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  font-size: 12px;font-weight: bold;
+}
+.showtime_dropdown:hover .dropdown-content {
+    display: block;
+    transition-duration: 0.2s all ease-in;
+}
+.showtime_dropdown > h4{
+       color: rgb(18, 190, 18);
+    padding:7px 10px;
+    cursor: pointer;
+}
+.showtime{
+    margin-bottom:50px
+}
+.showtime > h4{
+    color: white;
+}

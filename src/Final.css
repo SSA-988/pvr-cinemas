@@ -1,0 +1,101 @@
+.final {
+  display: grid;
+
+  border-radius: 2px;
+  width: 27%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 80px;
+  background-color: rgb(236, 236, 236);
+}
+.final_part {
+  padding: 15px;
+  margin-top: 10px;
+}
+.final_part > h4 {
+  color: rgb(216, 90, 17);
+}
+.final_image {
+  height: 160px;
+  position: relative;
+  margin-top: 20px;
+  border-radius: 8px;
+  width: 40%;
+  color: white;
+  margin-left: auto !important;
+  margin-right: auto !important;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  outline: none;
+}
+.final > h4{
+    text-align: center;
+    margin-top:5px;
+    color:rgb(204, 129, 32)
+}
+.final > h5{
+    text-align: center;
+    margin-top:5px;
+    color:gray;
+}
+.final_parts {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.final_part > h4:last-child {
+  color: rgb(167, 154, 154);
+  text-align: center;
+  margin-top: 4px;
+}
+.final_partDown {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.final_footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 15px;
+  padding-bottom: 20px;
+}
+.final_venue {
+  margin-bottom: 10px;
+}
+.final_venue > h5 {
+  color: rgb(216, 90, 17);
+}
+.final_venue > h5:last-child {
+  color: rgb(160, 153, 153);
+}
+.final_payment {
+  color: rgb(216, 90, 17);
+}
+.final_payment > h5:last-child {
+  color: rgb(160, 153, 153);
+}
+.final_number > h5 {
+  color: rgb(216, 90, 17);
+}
+.final_number > h5:last-child {
+  color: rgb(160, 153, 153);
+}
+hr {
+  border-top: 2px dashed black;
+  color: transparent;
+  height: 0.1px;
+}
+.final_bottom{
+    padding:10px;
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.final_bottom > h3{
+    color: rgb(2, 78, 74);
+}
+.final_bottom > h3:last-child{
+    color: black;
+}
